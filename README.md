@@ -4,6 +4,12 @@ Deployed site: https://app-store-chptnivrs-marcials-projects.vercel.app/
 
 First, run the development server:
 
+- Create a .env file with
+
+```
+NEXT_API_URL=http://localhost:3000
+```
+
 ```bash
 npm install
 

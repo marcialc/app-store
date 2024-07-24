@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/Header";
 import { SearchProvider } from "@/context/SearchContext";
 
 export const metadata: Metadata = {
@@ -16,10 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="lofi">
       <body className="overflow-scroll">
-        <SearchProvider>
-          <Header />
-          {children}
-        </SearchProvider>
+        <SearchProvider>{children}</SearchProvider>
       </body>
     </html>
   );
