@@ -119,6 +119,66 @@
       "name": "Outdoor Speaker",
       "tagline": "Enjoy music outdoors",
       "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 21,
+      "name": "Outdoor Hammock",
+      "tagline": "Relax and unwind in nature",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 22,
+      "name": "Portable Picnic Table",
+      "tagline": "Convenient table for outdoor dining",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 23,
+      "name": "Outdoor Blanket",
+      "tagline": "Stay cozy during outdoor activities",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 24,
+      "name": "Outdoor Grill Set",
+      "tagline": "Complete set for outdoor grilling",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 25,
+      "name": "Outdoor Cooler",
+      "tagline": "Keep your drinks and food cool",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 26,
+      "name": "Outdoor Games Set",
+      "tagline": "Fun games for outdoor activities",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 27,
+      "name": "Outdoor Lounge Chair",
+      "tagline": "Comfortable chair for outdoor relaxation",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 28,
+      "name": "Outdoor Dining Set",
+      "tagline": "Elegant set for outdoor dining",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 29,
+      "name": "Outdoor Fire Pit",
+      "tagline": "Stay warm and cozy outdoors",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 30,
+      "name": "Outdoor String Lights",
+      "tagline": "Create a magical ambiance outdoors",
+      "image_url": "https://picsum.photos/200"
     }
   ]
 }

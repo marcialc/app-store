@@ -1,4 +1,6 @@
+import { useState } from "react";
 import LazyLoadImage from "./LazyLoadImage";
+import CheckMarkIcon from "@/assets/CheckMarkIcon";
 
 type AppProps = {
   name: string;
@@ -9,8 +11,14 @@ type AppProps = {
 const IMAGE_SIZE = 50;
 
 const AppCard = ({ name, tagline, image_url }: AppProps) => {
+  const [appDownloaded, setAppDownloaded] = useState(false);
+
+  const handleGetApp = () => {
+    setAppDownloaded(true);
+  };
+
   return (
-    <div className="flex items-center justify-between card-side w-full max-w-96 max-h-fit sm:max-h-24 p-4 rounded-xl shadow-lg text-xs">
+    <div className="flex items-center justify-between card-side w-full max-w-96 max-h-fit sm:max-h-24 p-4 rounded-xl shadow-lg text-xs hover:shadow-2xl">
       <LazyLoadImage
         src={image_url}
         alt={name}
@@ -22,7 +30,16 @@ const AppCard = ({ name, tagline, image_url }: AppProps) => {
         <p>{tagline}</p>
       </div>
       <div className="card-actions justify-end items-center">
-        <button className="btn btn-primary btn-sm rounded-lg">GET</button>
+        {appDownloaded ? (
+          <CheckMarkIcon size={28} />
+        ) : (
+          <button
+            className="btn btn-primary btn-sm rounded-lg"
+            onClick={handleGetApp}
+          >
+            GET
+          </button>
+        )}
       </div>
     </div>
   );
