@@ -1,7 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import data from "../../../../public/data.json";
 
-const APP_KEYS = ["id", "name", "tagline", "image_url"] as const;
+const APP_KEYS = [
+  "id",
+  "name",
+  "tagline",
+  "image_url",
+  "version",
+  "category",
+] as const;
 type AppKeys = (typeof APP_KEYS)[number];
 
 export async function GET(req: NextRequest) {

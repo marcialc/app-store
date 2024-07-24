@@ -5,11 +5,13 @@ import useSearch from "@/hooks/useSearch";
 import useSWR from "swr";
 import LoadingSpinner from "./LoadingSpinner";
 
-type APPS = {
+export type APPS = {
   id: number;
   name: string;
   tagline: string;
   image_url: string;
+  version: string;
+  category: string;
 };
 
 const appFetcher = async (

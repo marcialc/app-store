@@ -4,181 +4,241 @@
       "id": 1,
       "name": "Picnic Basket",
       "tagline": "The best way to fill up your picnic basket!",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Picnic Essentials",
+      "version": "3.2"
     },
     {
       "id": 2,
       "name": "Checkered Blanket",
       "tagline": "Get connected with picnics near you",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Picnic Essentials",
+      "version": "1.8"
     },
     {
       "id": 3,
       "name": "Sandwich Builder",
       "tagline": "Design the tastiest sandwiches",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Food & Drink",
+      "version": "2.5"
     },
     {
       "id": 4,
       "name": "Outdoor Games",
       "tagline": "Fun games for outdoor activities",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Entertainment",
+      "version": "7.4"
     },
     {
       "id": 5,
       "name": "Sunscreen SPF 50",
       "tagline": "Protect your skin from the sun",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Health & Safety",
+      "version": "4.3"
     },
     {
       "id": 6,
       "name": "Portable Grill",
       "tagline": "Grill your favorite foods on the go",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Picnic Essentials",
+      "version": "6.1"
     },
     {
       "id": 7,
       "name": "Folding Chairs",
       "tagline": "Comfortable chairs for outdoor seating",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Outdoor Furniture",
+      "version": "8.7"
     },
     {
       "id": 8,
       "name": "Cooler Bag",
       "tagline": "Keep your drinks and food cool",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Picnic Essentials",
+      "version": "5.6"
     },
     {
       "id": 9,
       "name": "Bluetooth Speaker",
       "tagline": "Enjoy music while picnicking",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Entertainment",
+      "version": "2.9"
     },
     {
       "id": 10,
       "name": "Insect Repellent",
       "tagline": "Stay protected from bugs",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Health & Safety",
+      "version": "1.3"
     },
     {
       "id": 11,
       "name": "Outdoor Blanket",
       "tagline": "Stay cozy during outdoor activities",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Picnic Essentials",
+      "version": "3.8"
     },
     {
       "id": 12,
       "name": "Water Bottle",
       "tagline": "Stay hydrated on your adventures",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Food & Drink",
+      "version": "7.2"
     },
     {
       "id": 13,
       "name": "Portable Fan",
       "tagline": "Stay cool in hot weather",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Picnic Essentials",
+      "version": "4.5"
     },
     {
       "id": 14,
       "name": "Outdoor Umbrella",
       "tagline": "Shade from the sun",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Outdoor Furniture",
+      "version": "6.4"
     },
     {
       "id": 15,
       "name": "Outdoor Table",
       "tagline": "Convenient surface for picnics",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Outdoor Furniture",
+      "version": "5.1"
     },
     {
       "id": 16,
       "name": "Hiking Backpack",
       "tagline": "Carry your essentials on hikes",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Outdoor Gear",
+      "version": "7.6"
     },
     {
       "id": 17,
       "name": "Outdoor Grill",
       "tagline": "Grill delicious meals outdoors",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Picnic Essentials",
+      "version": "3.9"
     },
     {
       "id": 18,
       "name": "Outdoor Lantern",
       "tagline": "Illuminate your outdoor space",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Outdoor Gear",
+      "version": "2.1"
     },
     {
       "id": 19,
       "name": "Outdoor Pillow",
       "tagline": "Comfortable pillows for outdoor seating",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Outdoor Furniture",
+      "version": "8.3"
     },
     {
       "id": 20,
       "name": "Outdoor Speaker",
       "tagline": "Enjoy music outdoors",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Entertainment",
+      "version": "1.9"
     },
     {
       "id": 21,
       "name": "Outdoor Hammock",
       "tagline": "Relax and unwind in nature",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Outdoor Furniture",
+      "version": "4.7"
     },
     {
       "id": 22,
       "name": "Portable Picnic Table",
       "tagline": "Convenient table for outdoor dining",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Outdoor Furniture",
+      "version": "6.0"
     },
     {
       "id": 23,
       "name": "Outdoor Blanket",
       "tagline": "Stay cozy during outdoor activities",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Picnic Essentials",
+      "version": "2.4"
     },
     {
       "id": 24,
       "name": "Outdoor Grill Set",
       "tagline": "Complete set for outdoor grilling",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Picnic Essentials",
+      "version": "8.1"
     },
     {
       "id": 25,
       "name": "Outdoor Cooler",
       "tagline": "Keep your drinks and food cool",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Picnic Essentials",
+      "version": "4.9"
     },
     {
       "id": 26,
       "name": "Outdoor Games Set",
       "tagline": "Fun games for outdoor activities",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Entertainment",
+      "version": "5.3"
     },
     {
       "id": 27,
       "name": "Outdoor Lounge Chair",
       "tagline": "Comfortable chair for outdoor relaxation",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Outdoor Furniture",
+      "version": "7.8"
     },
     {
       "id": 28,
       "name": "Outdoor Dining Set",
       "tagline": "Elegant set for outdoor dining",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Outdoor Furniture",
+      "version": "3.4"
     },
     {
       "id": 29,
       "name": "Outdoor Fire Pit",
       "tagline": "Stay warm and cozy outdoors",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Outdoor Gear",
+      "version": "6.7"
     },
     {
       "id": 30,
       "name": "Outdoor String Lights",
       "tagline": "Create a magical ambiance outdoors",
-      "image_url": "https://picsum.photos/200"
+      "image_url": "https://picsum.photos/200",
+      "category": "Outdoor Gear",
+      "version": "4.0"
     }
   ]
 }
