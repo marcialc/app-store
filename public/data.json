@@ -1,0 +1,124 @@
+{
+  "apps": [
+    {
+      "id": 1,
+      "name": "Picnic Basket",
+      "tagline": "The best way to fill up your picnic basket!",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 2,
+      "name": "Checkered Blanket",
+      "tagline": "Get connected with picnics near you",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 3,
+      "name": "Sandwich Builder",
+      "tagline": "Design the tastiest sandwiches",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 4,
+      "name": "Outdoor Games",
+      "tagline": "Fun games for outdoor activities",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 5,
+      "name": "Sunscreen SPF 50",
+      "tagline": "Protect your skin from the sun",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 6,
+      "name": "Portable Grill",
+      "tagline": "Grill your favorite foods on the go",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 7,
+      "name": "Folding Chairs",
+      "tagline": "Comfortable chairs for outdoor seating",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 8,
+      "name": "Cooler Bag",
+      "tagline": "Keep your drinks and food cool",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 9,
+      "name": "Bluetooth Speaker",
+      "tagline": "Enjoy music while picnicking",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 10,
+      "name": "Insect Repellent",
+      "tagline": "Stay protected from bugs",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 11,
+      "name": "Outdoor Blanket",
+      "tagline": "Stay cozy during outdoor activities",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 12,
+      "name": "Water Bottle",
+      "tagline": "Stay hydrated on your adventures",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 13,
+      "name": "Portable Fan",
+      "tagline": "Stay cool in hot weather",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 14,
+      "name": "Outdoor Umbrella",
+      "tagline": "Shade from the sun",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 15,
+      "name": "Outdoor Table",
+      "tagline": "Convenient surface for picnics",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 16,
+      "name": "Hiking Backpack",
+      "tagline": "Carry your essentials on hikes",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 17,
+      "name": "Outdoor Grill",
+      "tagline": "Grill delicious meals outdoors",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 18,
+      "name": "Outdoor Lantern",
+      "tagline": "Illuminate your outdoor space",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 19,
+      "name": "Outdoor Pillow",
+      "tagline": "Comfortable pillows for outdoor seating",
+      "image_url": "https://picsum.photos/200"
+    },
+    {
+      "id": 20,
+      "name": "Outdoor Speaker",
+      "tagline": "Enjoy music outdoors",
+      "image_url": "https://picsum.photos/200"
+    }
+  ]
+}
