@@ -10,11 +10,11 @@ type LazyLoadImageProps = {
 };
 
 const LazyLoadImage = ({ src, alt, width, height }: LazyLoadImageProps) => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const handleImageLoad = useCallback(() => {
     setLoading(false);
-  }, [loading]);
+  }, []);
 
   return (
     <figure className="relative">

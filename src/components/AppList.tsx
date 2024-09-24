@@ -1,21 +1,27 @@
 "use client";
-import { useCallback } from "react";
 import AppCard from "./AppCard";
 import AppCardWrapper from "./AppCardWrapper";
 import useSearch from "@/hooks/useSearch";
 import useSWR from "swr";
 import LoadingSpinner from "./LoadingSpinner";
 
-type APPS = {
+export type APPS = {
   id: number;
   name: string;
   tagline: string;
   image_url: string;
+  version: string;
+  category: string;
 };
 
-const appFetcher = async (url: string) => {
+const appFetcher = async (
+  url: string,
+  searchInput: string
+): Promise<APPS[]> => {
   try {
-    const res = await fetch(url);
+    const res = await fetch(
+      `${url}?filterKey=name&filterValue=${encodeURIComponent(searchInput)}`
+    );
 
     if (!res.ok) {
       throw new Error("Error fetching apps");
@@ -25,27 +31,19 @@ const appFetcher = async (url: string) => {
     return data.apps;
   } catch (err) {
     console.error(err);
+    throw err;
   }
 };
 
 const AppList = () => {
   const { searchInput } = useSearch();
   const { data, error, isLoading } = useSWR<APPS[]>(
-    "/api/fetchApps",
-    appFetcher
+    ["/api/fetchApps", searchInput],
+    ([url, searchInput]) => appFetcher(url, searchInput as string)
   );
 
-  const getAppList = useCallback(() => {
-    if (!data) return [];
-
-    if (searchInput === "") {
-      return data;
-    }
-    return data.filter((app) => app.name.toLowerCase().includes(searchInput));
-  }, [searchInput, data]);
-
   if (error) {
-    return <p>Error fetching apps</p>;
+    return <p className="text-red-500">Error fetching apps</p>;
   }
 
   if (isLoading) {
@@ -55,8 +53,8 @@ const AppList = () => {
   return (
     <div className="flex flex-col items-center gap-4 my-4 w-full h-full flex-1">
       <AppCardWrapper>
-        {getAppList().length > 0 ? (
-          getAppList().map((app) => (
+        {data && data.length > 0 ? (
+          data.map((app) => (
             <AppCard
               key={app.id}
               {...app}
